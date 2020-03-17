@@ -1,19 +1,18 @@
 {
-  guidelines: [
-    {
-      id: 1,
-      text: "the first guideline",
-      flags: []
-    },
-    {
-      id: 2,
-      text: "the second guideline",
-      flags: []
-    },
-    {
-      id: 3,
-      text: "the third guideline",
-      flags: []
-    }
-  ]
+	"guidelines": [{
+			"id": 1,
+			"text": "the first guideline",
+			"flags": []
+		},
+		{
+			"id": 2,
+			"text": "the second guideline",
+			"flags": []
+		},
+		{
+			"id": 3,
+			"text": "the third guideline",
+			"flags": []
+		}
+	]
 }
