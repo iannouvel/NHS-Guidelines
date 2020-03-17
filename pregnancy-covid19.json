@@ -1,5 +1,6 @@
 {
-	"guidelines": [{
+	"guidelines": [
+		{
 			"id": 1,
 			"text": "the first guideline",
 			"flags": []
