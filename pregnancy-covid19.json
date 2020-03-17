@@ -2,18 +2,18 @@
 	"guidelines": [
 		{
 			"id": 1,
-			"text": "the first guideline",
-			"flags": []
+			"text": "Routine appointments for women with suspected or confirmed COVID-19 (growth scans, OGTT, antenatal community or secondary care appointments) should be delayed until after the recommended period of isolation.  Advice to attend more urgent pre-arranged appointments (fetal medicine surveillance, high risk maternal secondary care) will require a senior decision on urgency and potential risks/benefits.",
+			"flags": ["routine", "antenatal", "suspected", "confirmed"]
 		},
 		{
 			"id": 2,
-			"text": "the second guideline",
-			"flags": []
+			"text": "Trusts are advised to arrange local, robust communication pathways for senior maternity staff members to screen and coordinate appointments missed due to suspected or confirmed COVID-19.",
+			"flags": ["routine", "antenatal", "suspected", "confirmed"]
 		},
 		{
 			"id": 3,
-			"text": "the third guideline",
-			"flags": []
+			"text": "If it is deemed that obstetric or midwifery care cannot be delayed until after the recommended period of isolation, infection prevention and control measures should be arranged locally to facilitate care.  Pregnant women in isolation who need to attend should be contacted by a local care coordinator to re-book urgent appointments / scans, preferably at the end of the working day.",
+			"flags": ["routine", "antenatal", "suspected", "confirmed"]
 		}
 	]
 }
