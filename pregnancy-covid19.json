@@ -2,18 +2,89 @@
 	"guidelines": [
 		{
 			"id": 1,
-			"text": "Routine appointments for women with suspected or confirmed COVID-19 (growth scans, OGTT, antenatal community or secondary care appointments) should be delayed until after the recommended period of isolation.  Advice to attend more urgent pre-arranged appointments (fetal medicine surveillance, high risk maternal secondary care) will require a senior decision on urgency and potential risks/benefits.",
-			"flags": ["routine", "antenatal", "suspectedInfection", "confirmedInfection"]
+			"text": "There is an estimated incubation period of 0-14 days (mean 5-6 days); an infected woman may therefore present asymptomatically, developing symptoms later during an admission.",
+			"flags": ["newInfection"]
 		},
 		{
 			"id": 2,
-			"text": "Trusts are advised to arrange local, robust communication pathways for senior maternity staff members to screen and coordinate appointments missed due to suspected or confirmed COVID-19.",
-			"flags": ["routine", "antenatal", "suspectedInfection", "confirmedInfection"]
+			"text": "Health professionals should be aware of this possibility, particularly those who regularly measure patient vital signs (e.g. Health Care Assistants). Local guidance should be available on whom to contact for further assessment of the patient in the event of new onset respiratory symptoms or unexplained fever of or above 37.8 degrees.",
+			"flags": ["newInfection"]
 		},
 		{
 			"id": 3,
+			"text": "Routine appointments for women with suspected or confirmed COVID-19 (growth scans, OGTT, antenatal community or secondary care appointments) should be delayed until after the recommended period of isolation.  Advice to attend more urgent pre-arranged appointments (fetal medicine surveillance, high risk maternal secondary care) will require a senior decision on urgency and potential risks/benefits.",
+			"flags": ["routineAppointment", "antenatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 4,
+			"text": "Routine appointments for women with suspected or confirmed COVID-19 (growth scans, OGTT, antenatal community or secondary care appointments) should be delayed until after the recommended period of isolation.  Advice to attend more urgent pre-arranged appointments (fetal medicine surveillance, high risk maternal secondary care) will require a senior decision on urgency and potential risks/benefits.",
+			"flags": ["routineAppointment", "antenatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 5,
+			"text": "Trusts are advised to arrange local, robust communication pathways for senior maternity staff members to screen and coordinate appointments missed due to suspected or confirmed COVID-19.",
+			"flags": ["routineAppointment", "antenatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 6,
 			"text": "If it is deemed that obstetric or midwifery care cannot be delayed until after the recommended period of isolation, infection prevention and control measures should be arranged locally to facilitate care.  Pregnant women in isolation who need to attend should be contacted by a local care coordinator to re-book urgent appointments / scans, preferably at the end of the working day.",
-			"flags": ["routine", "antenatal", "suspectedInfection", "confirmedInfection"]
-		}
+			"flags": ["routineAppointment", "antenatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 7,
+			"text": "Where possible, early pregnancy (EPU) or maternity triage units should provide advice over the phone. If this requires discussion with a senior member of staff who is not immediately available, a return telephone call should be arranged.",
+			"flags": ["urgentAppointment", "antenatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 8,
+			"text": "Local protocols are required to ensure women with confirmed or suspected COVID-19 are isolated on arrival to EPU or triage units and full PPE measures are in place for staff.",
+			"flags": ["urgentAppointment", "antenatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 9,
+			"text": "Women with mild COVID-19 symptoms (self-isolating) in early labour should be encouraged to remain at home.",
+			"flags": ["intrapartumCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 10,
+			"text": "Advise delivery in an obstetric unit for cEFM due to risk of fetal compromise.",
+			"flags": ["intrapartumCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 11,
+			"text": "Once isolated, full maternal and fetal assessment should include:",
+			"children": ["Assessment of the severity of COVID-19 symptoms should follow a multi-disciplinary team approach including an infectious diseases or medical specialist", "Maternal observations including temperature, respiratory rate and oxygen saturations", "Confirmation of the onset of labour, as per standard care", "Electronic fetal monitoring using cardiotocograph (CTG) due to case series showing increased fetal compromise.", "If the woman has signs of sepsis, manage as per protocol regarding sepsis in pregnancy, but consider active COVID-19"]
+			"flags": ["intrapartumCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 12,
+			"text": "",
+			"flags": ["intrapartumCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 13,
+			"text": "",
+			"flags": ["intrapartumCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 14,
+			"text": "",
+			"flags": ["intrapartumCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 15,
+			"text": "",
+			"flags": ["intrapartumCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 16,
+			"text": "",
+			"flags": ["intrapartumCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 17,
+			"text": "",
+			"flags": ["intrapartumCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
 	]
 }
