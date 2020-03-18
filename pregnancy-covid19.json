@@ -53,7 +53,7 @@
 		{
 			"id": 11,
 			"text": "Once isolated, full maternal and fetal assessment should include:",
-			"children": ["Assessment of the severity of COVID-19 symptoms should follow a multi-disciplinary team approach including an infectious diseases or medical specialist", "Maternal observations including temperature, respiratory rate and oxygen saturations", "Confirmation of the onset of labour, as per standard care", "Electronic fetal monitoring using cardiotocograph (CTG) due to case series showing increased fetal compromise.", "If the woman has signs of sepsis, manage as per protocol regarding sepsis in pregnancy, but consider active COVID-19"]
+			"children": ["Assessment of the severity of COVID-19 symptoms should follow a multi-disciplinary team approach including an infectious diseases or medical specialist", "Maternal observations including temperature, respiratory rate and oxygen saturations", "Confirmation of the onset of labour, as per standard care", "Electronic fetal monitoring using cardiotocograph (CTG) due to case series showing increased fetal compromise.", "If the woman has signs of sepsis, manage as per protocol regarding sepsis in pregnancy, but consider active COVID-19"],
 			"flags": ["intrapartumCare", "suspectedInfection", "confirmedInfection", "newInfection"]
 		},
 		{
