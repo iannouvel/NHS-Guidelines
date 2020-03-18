@@ -12,6 +12,7 @@
 		},
 		{
 			"id": 3,
+			"title": "",
 			"text": "Routine appointments for women with suspected or confirmed COVID-19 (growth scans, OGTT, antenatal community or secondary care appointments) should be delayed until after the recommended period of isolation.  Advice to attend more urgent pre-arranged appointments (fetal medicine surveillance, high risk maternal secondary care) will require a senior decision on urgency and potential risks/benefits.",
 			"flags": ["routineAppointment", "antenatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
 		},
@@ -22,6 +23,7 @@
 		},
 		{
 			"id": 5,
+			"title": "",
 			"text": "Trusts are advised to arrange local, robust communication pathways for senior maternity staff members to screen and coordinate appointments missed due to suspected or confirmed COVID-19.",
 			"flags": ["routineAppointment", "antenatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
 		},
@@ -32,6 +34,7 @@
 		},
 		{
 			"id": 7,
+			"title": "",
 			"text": "Where possible, early pregnancy (EPU) or maternity triage units should provide advice over the phone. If this requires discussion with a senior member of staff who is not immediately available, a return telephone call should be arranged.",
 			"flags": ["urgentAppointment", "antenatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
 		},
@@ -42,6 +45,7 @@
 		},
 		{
 			"id": 9,
+			"title": "",
 			"text": "Women with mild COVID-19 symptoms (self-isolating) in early labour should be encouraged to remain at home.",
 			"flags": ["intrapartumCare", "suspectedInfection", "confirmedInfection", "newInfection"]
 		},
@@ -83,8 +87,52 @@
 		},
 		{
 			"id": 17,
-			"text": "",
-			"flags": ["intrapartumCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+			"title": "Neonatal Care",
+			"text": "There are limited data to guide the postnatal management of babies of mothers who tested positive for COVID-19 in the third trimester of pregnancy. Reassuringly, there is no evidence at present of (antenatal) vertical transmission.",
+			"flags": ["postnatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 18,
+			"text": "All babies of women with suspected or confirmed COVID-19 need to also be tested for COVID-19.",
+			"flags": ["postnatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 19,
+			"text": "Literature from China has advised separate isolation of the infected mother and her baby for 14 days. However, routine precautionary separation of a mother and a healthy baby should not be undertaken lightly, given the potential detrimental effects on feeding and bonding.  Given the current limited evidence we advise that women and healthy infants, not otherwise requiring neonatal care, are kept together in the immediate post-partum period.",
+			"flags": ["postnatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 20,
+			"text": "A risks / benefits discussion with neonatologists and families to individualise care in babies that may be more susceptible is recommended.  We emphasise that this guidance may change as knowledge evolves.",
+			"flags": ["postnatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 21,
+			"text": "All babies born to COVID-19 positive mothers should have appropriate close monitoring and early involvement of neonatal care, where necessary.  Babies born to mothers testing positive for COVID-19 will need neonatal follow-up and ongoing surveillance after discharge.",
+			"flags": ["postnatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 22,
+			"title": "Infant Feeding",
+			"text": "It is reassuring that in six Chinese cases tested, breastmilk was negative for COVID-19; however, given the small number of cases, this evidence should be interpreted with caution.  The main risk for infants of breastfeeding is the close contact with the mother, who is likely to share infective airborne droplets. In the light of the current evidence, we advise that the benefits of breastfeeding outweigh any potential risks of transmission of the virus through breastmilk. The risks and benefits of breastfeeding, including the risk of holding the baby in close proximity to the mother, should be discussed with her. This guidance may change as knowledge evolves.",
+			"flags": ["postnatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 23,
+			"text": "For women wishing to breastfeed, precautions should be taken to limit viral spread to the baby:",
+			"children": ["Hand washing before touching the baby, breast pump or bottles", "Try and avoid coughing or sneezing on your baby while feeding at the breast", "Consider wearing a face mask while breastfeeding, if available", "Follow recommendations for pump cleaning after each use", "Consider asking someone who is well to feed expressed milk to the baby"],
+			"flags": ["postnatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 24,
+			"text": "For women bottle feeding with formula or expressed milk, strict adherence to sterilisation guidelines is recommended. Where mothers are expressing breastmilk in hospital, a dedicated breast pump should be used.",
+			"flags": ["postnatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
+		},
+		{
+			"id": 25,
+			"title": "Discharge and readmission",
+			"text": "Any mothers or babies requiring readmission for postnatal obstetric or neonatal care during the period of home isolation due to suspected or confirmed COVID-19 are advised to phone ahead to contact their local unit and follow the attendance protocol as described in section 3.1. The place of admission will depend on the level of care required for mother or baby.",
+			"flags": ["postnatalCare", "suspectedInfection", "confirmedInfection", "newInfection"]
 		}
 	]
 }
