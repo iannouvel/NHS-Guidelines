@@ -85,6 +85,6 @@
 			"id": 17,
 			"text": "",
 			"flags": ["intrapartumCare", "suspectedInfection", "confirmedInfection", "newInfection"]
-		},
+		}
 	]
 }
